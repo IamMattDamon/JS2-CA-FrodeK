@@ -13,6 +13,7 @@ async function getRecipes() {
 
         const recipes = json;
 
+        renderRecipes(recipes);
         searchRecipes(recipes);
 
     } catch (error) {
@@ -26,7 +27,7 @@ getRecipes();
 const recipeContainer = document.querySelector(".recipe-container");
 const favourites = getFavRecipes();
 
-    favourites.forEach((recipe) => {
+favourites.forEach((recipe) => {
     let iClass = "far";
 
     const doesObjectExits = favourites.find(function (fav) {
