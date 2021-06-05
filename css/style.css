@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    background: #EFEFEF;
+    color: #1A1A1A;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    color: steelblue;
+}
+
+h2 {
+    font-size: 36px;
+    color: steelblue;
+}
+
+h3 {
+    color: steelblue;
+    font-size: 24px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+}
+
+#menu a {
+    text-decoration: none;
+    justify-content: center;
+    align-content: center;
+    margin-top: 42px;
+    margin-left: 21px;
+    color: #1a1a1a;
+    font-size: 20px;
+}
+
+#menu a:hover {
+    color: #ee1883;
+}
+
+.recipes {
+    margin: 2rem;
+    padding: 1rem;
+    background: white;
+    border: 2px solid lightgrey;
+    border-radius: 1rem;
+    min-width: 400px;
+    position: relative;
+}
+
+.recipes i {
+    position: absolute;
+    right: 15px;
+    top: 35px; 
+    font-size: 30px;
+}
+
+
+.recipes a {
+    text-decoration: none;
+    color: steelblue;
+}
+
+.recipes a:hover {
+    color: #ee1883;
+    transform: 0.3s ease-in;
+}
+
+.fa.fa-heart {
+    color: darkred;
+}
+
+input.search {
+    width: 305px;
+}
+
+.center {
+    align-items: center;
+}
+
+.main-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    
+}
+
+.recipe-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.recipes {
+    padding: 20px 20px;
+}
