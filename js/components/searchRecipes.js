@@ -1,5 +1,3 @@
-import { renderRecipes } from "./renderRecipes.js";
-
 export function searchRecipes(recipes) {
     const search = document.querySelector(".search");
 
@@ -13,6 +11,6 @@ export function searchRecipes(recipes) {
             }
         });
 
-        renderRecipes(filteredRecipes);
+        searchRecipes(filteredRecipes);
     };
 }
